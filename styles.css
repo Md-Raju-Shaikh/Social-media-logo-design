@@ -1,0 +1,120 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
+.wrapper{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+.initial_all_icons_hide {
+  position: fixed;
+  bottom: 65px;
+  left: 25px;
+}
+#show_blink_icons {
+  position: fixed;
+  bottom: 65px;
+  left: 25px;
+}
+.wrapper .button{
+  height: 60px;
+  width: 60px;
+  margin: 5px 5px;
+  overflow: hidden;
+  /* background: #fff; */
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.5s linear;
+}
+
+.wrapper a{
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper .facebook_icon_color, .linkedin_icon_color{
+  background: blue;
+  color: #fff;
+}
+.wrapper .youtube_icon_color{
+  background: red;
+  color: #fff;
+}
+.wrapper .twitter_icon_color{
+  background: #6983f5;
+  color: #fff;
+}
+.wrapper .github_icon_color{
+  background: black;
+  color: #fff;
+}
+.wrapper .call_icon_color{
+  background: rgb(8, 229, 41);
+  color: #fff;
+}
+.wrapper .minimize_icon_color{
+  background: red;
+  color: #fff;
+}
+
+
+/* .wrapper .button:hover{
+  width: 200px;
+  background: linear-gradient(90deg,#2c23b9 0,#2525b4 17%,#00d4ff 100%);
+} */
+.wrapper .facebook_icon_color:hover, .twitter_icon_color:hover, .linkedin_icon_color:hover{
+  width: 200px;
+  background: linear-gradient(90deg,#2c23b9 0,#2525b4 17%,#00d4ff 100%);
+}
+.wrapper .github_icon_color:hover{
+  width: 200px;
+  background: linear-gradient(90deg,#0a0a0a 0,#272729 17%,#879295 100%);
+}
+.wrapper .youtube_icon_color:hover{
+  width: 200px;
+  background: linear-gradient(90deg,#f11212 0,#f71f1f 17%,#eeb8b8 100%);
+}
+.wrapper .call_icon_color:hover{
+  width: 200px;
+  background: linear-gradient(90deg,#04bf2d 0,#32e844 17%,#7fffa3 100%);
+}
+.wrapper .minimize_icon_color:hover{
+  width: 200px;
+  background: linear-gradient(90deg,#bf0505 0,#f21111 17%,#f26767 100%);
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.5s linear;
+}
+
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.5s linear;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  /* display: none; */
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.5s linear;
+}
+

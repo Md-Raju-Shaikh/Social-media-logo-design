@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Social Media Icons</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        crossorigin="anonymous" />
+    <!-- For Bootstrap -->
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--Blink All Icons-->
+    <div class="wrapper" id="show_blink_icons" onclick="show_all_Icon()">
+        <div class="button facebook_icon_color" id="blink_color">
+            <div class="icon" id="icon_color" onclick="show_all_Icon()">
+                <i class="fab fa-facebook-f" id="blink_icon"></i>
+            </div>
+            <span>Support</span>
+        </div>
+    </div>
+
+
+    <!-- All the icons -->
+    <div class="wrapper initial_all_icons_hide" id="hide_all_icons" style="display: none;">
+        <a href="https://www.twitter.com" target="_blank">
+            <div class="button twitter_icon_color">
+                <div class="icon">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <span>Twitter</span>
+            </div>
+        </a>
+
+        <a href="https://www'linkedin.com" target="_blank">
+            <div class="button linkedin_icon_color">
+                <div class="icon">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <span>Linkedin</span>
+            </div>
+        </a>
+
+        <a href="https://www.github.com" target="_blank">
+            <div class="button github_icon_color">
+                <div class="icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <span>Github</span>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com" target="_blank">
+            <div class="button youtube_icon_color">
+                <div class="icon">
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <span>YouTube</span>
+            </div>
+        </a>
+
+        <a href="tel:+8801711111111" target="_blank">
+            <div class="button call_icon_color">
+                <div class="icon">
+                    <i class="fa fa-phone"></i>
+                </div>
+                <span>Call</span>
+            </div>
+        </a>
+
+        <a href="https://www.facebook.com" target="_blank">
+            <div class="button facebook_icon_color">
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <span>Facebook</span>
+            </div>
+        </a>
+
+        <div class="button minimize_icon_color" onclick="hide_all_Icon()">
+            <div class="icon">
+                <i class="fa-solid fa-minimize"></i>
+            </div>
+            <span>Minimize</span>
+        </div>
+    </div>
+
+    <!-- For Bootstrap -->
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
